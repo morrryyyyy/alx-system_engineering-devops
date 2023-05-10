@@ -1,1 +1,1 @@
-shell basics tasks solution directory
+This directory contains my solutions for the shell basics tasks
