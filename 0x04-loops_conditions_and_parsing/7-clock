@@ -4,12 +4,12 @@
 hours=0
 mins=1
 
-while [[ "$hours" -le 11 ]]; do
+while [[ "$hours" -le 12 ]]; do
       echo "Hour: $hours"
       while [[ "$mins" -le 59 ]]; do
       	    echo "$mins"
 	    mins=$((mins + 1))
       done
-      mins=0
+      mins=1
       hours=$((hours + 1))
 done
