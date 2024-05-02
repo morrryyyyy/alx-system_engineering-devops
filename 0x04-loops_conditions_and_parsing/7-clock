@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#print the mins and hours of a day
+
+hours=0
+mins=1
+
+while [[ "$hours" -le 12 ]]; do
+      echo "Hour: $hours"
+      while [[ "$mins" -le 59 ]]; do
+      	    echo "$mins"
+	    mins=$((mins + 1))
+      done
+      mins=0
+      hours=$((hours + 1))
+done
