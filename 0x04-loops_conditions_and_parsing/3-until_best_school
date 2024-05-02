@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#until_best_school: print a phrase using until loop
+
+count=0
+
+until [[ "$count" -eq 10 ]]; do
+      echo "Best school"
+      count=$((count + 1))
+done
