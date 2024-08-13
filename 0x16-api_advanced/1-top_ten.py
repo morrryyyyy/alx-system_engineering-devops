@@ -21,7 +21,3 @@ def top_ten(subreddit):
             print(None)
     except requests.RequestException:
         print(None)
-
-# Example usage:
-# top_ten("python")
-# top_ten("invalidsubreddit12345")
