@@ -24,7 +24,6 @@ def number_of_subscribers(subreddit):
                 print("JSON decoding failed")  # Debug: JSON decoding error
                 return 0
         else:
-            print("Request failed or subreddit does not exist")
             return 0
     except requests.RequestException as e:
         # Log or print the exception for debugging
