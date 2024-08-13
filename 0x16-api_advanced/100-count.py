@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is an advanced task module."""
+"""This is the 100-count module."""
 import requests
 from collections import defaultdict
 
@@ -49,4 +49,4 @@ def count_words(subreddit, word_list, after=None, word_count=None):
                 if count > 0:
                     print(f"{word}: {count}")
     except requests.RequestException:
-        return
+        return 0
