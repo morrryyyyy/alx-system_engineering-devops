@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# Connect to a server using bash script
 #Define server address
 SERVER_ADDRESS="100.25.37.158"
 
