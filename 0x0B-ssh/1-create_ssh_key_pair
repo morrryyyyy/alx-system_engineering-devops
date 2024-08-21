@@ -1,0 +1,14 @@
+#!/bin/env bash
+# Create an RSA key pair.
+# Set variables for the key name, number of bits, and passphrase
+KEY_NAME="school"
+KEY_BITS=4096
+PASSPHRASE="betty"
+
+# Generate the RSA key pair
+ssh-keygen -t rsa -b $KEY_BITS -f $KEY_NAME -N $PASSPHRASE
+
+# Display a message indicating that the key has been created
+echo "RSA key pair created:"
+echo "Private key: ${KEY_NAME}"
+echo "Public key: ${KEY_NAME}.pub"
