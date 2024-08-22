@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Connect to a server using bash script
 #Define server address
-SERVER_ADDRESS="100.25.37.158"
+SERVER_ADDRESS="100.26.254.133"
 
 #Connect to the server
 ssh -i ~/.ssh/school ubuntu@"$SERVER_ADDRESS"
